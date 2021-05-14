@@ -1,5 +1,5 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual C++ Express 2010
+# Visual Studio 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MMCore", "MMCore\MMCore.vcxproj", "{36571628-728C-4ACD-A47F-503BA91C5D43}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MMCoreJ_wrap", "MMCoreJ_wrap\MMCoreJ_wrap.vcxproj", "{EFA68887-8A97-49D7-BAB4-768E15A4E597}"
@@ -457,6 +457,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SouthPort", "DeviceAdapters\SouthPort\SouthPort.vcxproj", "{9B71AD68-C43A-42C2-96E7-4113975D1C2A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TeensySLM", "DeviceAdapters\TeesnySLM\TeensySLM.vcxproj", "{2289E020-8729-4785-8EEA-168303BF6A35}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Basler_mE5AQ8CXP6D", "DeviceAdapters\BaslerFrameGrabbers\mE5AQ8-CXP6D\Basler_mE5AQ8-CXP6D.vcxproj", "{FC790DEA-F637-4126-B13A-A9E2E731C52E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -3166,6 +3168,16 @@ Global
 		{2289E020-8729-4785-8EEA-168303BF6A35}.Release|Win32.Build.0 = Release|Win32
 		{2289E020-8729-4785-8EEA-168303BF6A35}.Release|x64.ActiveCfg = Release|x64
 		{2289E020-8729-4785-8EEA-168303BF6A35}.Release|x64.Build.0 = Release|x64
+		{FC790DEA-F637-4126-B13A-A9E2E731C52E}.Debug|Mixed Platforms.ActiveCfg = Debug|x64
+		{FC790DEA-F637-4126-B13A-A9E2E731C52E}.Debug|Mixed Platforms.Build.0 = Debug|x64
+		{FC790DEA-F637-4126-B13A-A9E2E731C52E}.Debug|Win32.ActiveCfg = Debug|x64
+		{FC790DEA-F637-4126-B13A-A9E2E731C52E}.Debug|x64.ActiveCfg = Debug|x64
+		{FC790DEA-F637-4126-B13A-A9E2E731C52E}.Debug|x64.Build.0 = Debug|x64
+		{FC790DEA-F637-4126-B13A-A9E2E731C52E}.Release|Mixed Platforms.ActiveCfg = Release|x64
+		{FC790DEA-F637-4126-B13A-A9E2E731C52E}.Release|Mixed Platforms.Build.0 = Release|x64
+		{FC790DEA-F637-4126-B13A-A9E2E731C52E}.Release|Win32.ActiveCfg = Release|x64
+		{FC790DEA-F637-4126-B13A-A9E2E731C52E}.Release|x64.ActiveCfg = Release|x64
+		{FC790DEA-F637-4126-B13A-A9E2E731C52E}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
